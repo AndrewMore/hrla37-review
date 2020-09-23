@@ -1,4 +1,54 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: .5rem 0;
+}
+
 img {
   width: 10rem;
   height: 10rem;
+}
+
+.menu {
+  background-color: #E3350D;
+  color: white;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: fixed; /* Set the menu to fixed position */
+  top: 0; /* Position the menu at the top of the page */
+  width: 100%; /* Full width */
+}
+/*
+.menuOptions{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.menuOptions select, button{
+  /* display: block; */
+  font-size: 2.5rem;
+  border-radius: 25rem;
+  text-align: center;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.list {
+  margin: 220px 20px 40px;
+}
+
+.list h3{
+  font-size: 3rem;
+}
+
+.list h4{
+  font-size: 2rem;
 }

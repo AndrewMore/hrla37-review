@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS pokedex;
+
+CREATE DATABASE pokedex;
+
+USE pokedex;
+
+CREATE TABLE pokemon (
+  id INT NOT NULL AUTO_INCREMENT,
+  pokeName VARCHAR(200),
+  pokeType VARCHAR(200),
+  pokeImg VARCHAR(255),
+  PRIMARY KEY(id)
+);
+
